@@ -85,7 +85,7 @@ $run_p_cat = mysqli_query($con,$get_p_cat);
 
 $row_p_cat = mysqli_fetch_array($run_p_cat);
 
-$p_cat_title = $row_p_cat['p_cat_title'];
+// $p_cat_title = $row_p_cat['p_cat_title'];
 
 
 
@@ -358,9 +358,9 @@ echo "
 
 <p class='price'>
 
-Product Price : <del> $$pro_price </del><br>
+Product Price : <del> Rs$pro_price </del><br>
 
-Product sale Price : $$pro_psp_price
+Product sale Price : Rs$pro_psp_price
 
 </p>
 
@@ -373,7 +373,7 @@ echo "
 
 <p class='price'>
 
-Product Price : $$pro_price
+Product Price : Rs$pro_price
 
 </p>
 
@@ -391,9 +391,9 @@ echo "
 
 <p class='price'>
 
-Bundle Price : <del> $$pro_price </del><br>
+Bundle Price : <del> Rs$pro_price </del><br>
 
-Bundle sale Price : $$pro_psp_price
+Bundle sale Price : Rs$pro_psp_price
 
 </p>
 
@@ -406,7 +406,7 @@ echo "
 
 <p class='price'>
 
-Bundle Price : $$pro_price
+Bundle Price : Rs$pro_price
 
 </p>
 
@@ -646,7 +646,7 @@ $run_manufacturer = mysqli_query($db,$get_manufacturer);
 
 $row_manufacturer = mysqli_fetch_array($run_manufacturer);
 
-$manufacturer_name = $row_manufacturer['manufacturer_title'];
+// $manufacturer_name = $row_manufacturer['manufacturer_title'];
 
 $pro_psp_price = $row_products['product_psp_price'];
 
@@ -655,16 +655,16 @@ $pro_url = $row_products['product_url'];
 
 if($pro_label == "Sale" or $pro_label == "Gift"){
 
-$product_price = "<del> $$pro_price </del>";
+$product_price = "<del> Rs$pro_price </del>";
 
-$product_psp_price = "| $$pro_psp_price";
+$product_psp_price = "| Rs$pro_psp_price";
 
 }
 else{
 
 $product_psp_price = "";
 
-$product_price = "$$pro_price";
+$product_price = "Rs$pro_price";
 
 }
 
@@ -706,7 +706,7 @@ echo "
 
 <center>
 
-<p class='btn btn-warning'> $manufacturer_name </p>
+
 
 </center>
 
@@ -797,16 +797,16 @@ $pro_url = $row_products['product_url'];
 
 if($pro_label == "Sale" or $pro_label == "Gift"){
 
-$product_price = "<del> $$pro_price </del>";
+$product_price = "<del> Rs$pro_price </del>";
 
-$product_psp_price = "| $$pro_psp_price";
+$product_psp_price = "| Rs$pro_psp_price";
 
 }
 else{
 
 $product_psp_price = "";
 
-$product_price = "$$pro_price";
+$product_price = "Rs$pro_price";
 
 }
 

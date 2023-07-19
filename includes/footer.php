@@ -73,16 +73,16 @@
 			<div class="footer-nav__col footer-nav__col--contacts">
 				<div class="footer-nav__heading">Contact details</div>
 				<address class="address">
-				Head Office: Avenue Fashion.<br>
-				180-182 Regent Street, London.
+				Head Office: PIXNEP<br>
+				Saraswotinagar Chabahil KTM.
 			</address>
 				<div class="phone">
 					Telephone:
-					<a class="phone__number" href="tel:0123456789">0123-456-789</a>
+					<a class="phone__number" href="tel:9803379812">9803379812</a>
 				</div>
 				<div class="email">
 					Email:
-					<a href="mailto:support@yourwebsite.com" class="email__addr">support@yourwebsite.com</a>
+					<a href="mailto:pixnep42@gmail.com" class="email__addr">pixnep42@gmail.com</a>
 				</div>
 			</div>
 
@@ -118,15 +118,15 @@
 		<div class="container clearfix">
 
 			<div class="copyright">
-				&copy; 2018 Avenue Fashion&trade;
+				&copy; 2023 PIXNEP&trade;
 			</div>
 
 			<div class="developer">
-				Dev by Yasser Dalouzi
+				Dev by Pranish Lama
 			</div>
 
 			<div class="designby">
-				Design by Yasser Dalouzi
+				Design by Kripesh Sunuwar
 			</div>
 		</div>
 	</div>

@@ -62,15 +62,15 @@ $p_video = $row_edit['product_video'];
 
 }
 
-$get_manufacturer = "select * from manufacturers where manufacturer_id='$m_id'";
+// $get_manufacturer = "select * from manufacturers where manufacturer_id='$m_id'";
 
-$run_manufacturer = mysqli_query($con,$get_manufacturer);
+// $run_manufacturer = mysqli_query($con,$get_manufacturer);
 
-$row_manfacturer = mysqli_fetch_array($run_manufacturer);
+// $row_manfacturer = mysqli_fetch_array($run_manufacturer);
 
-$manufacturer_id = $row_manfacturer['manufacturer_id'];
+// $manufacturer_id = $row_manfacturer['manufacturer_id'];
 
-$manufacturer_title = $row_manfacturer['manufacturer_title'];
+// $manufacturer_title = $row_manfacturer['manufacturer_title'];
 
 
 $get_p_cat = "select * from product_categories where p_cat_id='$p_cat'";
@@ -79,7 +79,7 @@ $run_p_cat = mysqli_query($con,$get_p_cat);
 
 $row_p_cat = mysqli_fetch_array($run_p_cat);
 
-$p_cat_title = $row_p_cat['p_cat_title'];
+// $p_cat_title = $row_p_cat['p_cat_title'];
 
 $get_cat = "select * from categories where cat_id='$cat'";
 
@@ -87,7 +87,7 @@ $run_cat = mysqli_query($con,$get_cat);
 
 $row_cat = mysqli_fetch_array($run_cat);
 
-$cat_title = $row_cat['cat_title'];
+// $cat_title = $row_cat['cat_title'];
 
 ?>
 
@@ -189,7 +189,7 @@ Product Url Example : navy-blue-t-shirt
 <select name="manufacturer" class="form-control">
 
 <option value="<?php echo $manufacturer_id; ?>">
-<?php echo $manufacturer_title; ?>
+<!-- <?php echo $manufacturer_title; ?> -->
 </option>
 
 <?php
@@ -227,8 +227,8 @@ $manufacturer_title
 <div class="col-md-6" >
 
 <select name="product_cat" class="form-control" >
-
-<option value="<?php echo $p_cat; ?>" > <?php echo $p_cat_title; ?> </option>
+<!-- 
+<option value="<?php echo $p_cat; ?>" > <?php echo $p_cat_title; ?> </option> -->
 
 
 <?php
@@ -265,8 +265,8 @@ echo "<option value='$p_cat_id' >$p_cat_title</option>";
 
 
 <select name="cat" class="form-control" >
-
-<option value="<?php echo $cat; ?>" > <?php echo $cat_title; ?> </option>
+<!-- 
+<option value="<?php echo $cat; ?>" > <?php echo $cat_title; ?> </option> -->
 
 <?php
 
@@ -540,7 +540,7 @@ move_uploaded_file($temp_name1,"product_images/$product_img1");
 move_uploaded_file($temp_name2,"product_images/$product_img2");
 move_uploaded_file($temp_name3,"product_images/$product_img3");
 
-$update_product = "update products set p_cat_id='$product_cat',cat_id='$cat',manufacturer_id='$manufacturer_id',date=NOW(),product_title='$product_title',product_url='$product_url',product_img1='$product_img1',product_img2='$product_img2',product_img3='$product_img3',product_price='$product_price',product_psp_price='$psp_price',product_desc='$product_desc',product_features='$product_features',product_video='$product_video',product_keywords='$product_keywords',product_label='$product_label',status='$status' where product_id='$p_id'";
+$update_product = "update products set p_cat_id='$product_cat',cat_id='$cat',manufacturer_id='$manufacturer_id',date=NOW(),product_title='$product_title',product_url='$product_url',product_img1='$product_img1',product_img2='$product_img2',product_img3='$product_img3',product_price='$product_price',product_psp_price='$psp_price',product_desc='product_desc',product_features='$product_features',product_video='$product_video',product_keywords='$product_keywords',product_label='$product_label',status='$status' where product_id='$p_id'";
 
 $run_product = mysqli_query($con,$update_product);
 

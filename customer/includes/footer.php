@@ -118,15 +118,15 @@
 		<div class="container clearfix">
 
 			<div class="copyright">
-				&copy; 2018 Avenue Fashion&trade;
+				&copy; 2023 PIXNEP&trade;
 			</div>
 
 			<div class="developer">
-				Dev by Yasser Dalouzi
+				Dev by Pranish Lama
 			</div>
 
 			<div class="designby">
-				Design by Yasser Dalouzi
+				Design by Kripesh Sunuwar
 			</div>
 		</div>
 	</div>

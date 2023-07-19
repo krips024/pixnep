@@ -88,7 +88,7 @@ dfn {
 }
 
 mark {
-  background-color: #ff0;
+  background-color: rgb(216, 34, 225);
   color: #000
 }
 
@@ -517,7 +517,7 @@ img {
 }
 
 .page-header__bottomline .main-nav .categories__link:hover {
-  color: #00c8c8
+  color: #ff8f21
 }
 
 .page-header__bottomline .main-nav .categories__link i {
@@ -528,7 +528,7 @@ img {
 }
 
 .page-header__bottomline .main-nav .categories__link--active {
-  color: #00c8c8
+  color: #ff8f21
 }
 
 .page-header .dropdown {
@@ -744,7 +744,7 @@ img {
   padding-top: 80px;
   font-size: 0;
   text-align: center;
-  background-color: #00c8c8
+  background-color: #ff8f21
 }
 
 .page-footer .banners .banner-social__link {
@@ -856,7 +856,7 @@ img {
 }
 
 .brand__link {
-  color: #00c8c8;
+  color: #ff8f21;
   text-decoration: none
 }
 
@@ -878,13 +878,13 @@ img {
   width: 100%;
   height: 45px;
   padding-left: 18px;
-  background-color: #00c8c8;
+  background-color: #ff8f21;
   -webkit-transition: background-color .3s;
   transition: background-color .3s
 }
 
 .btn--basket:hover {
-  background-color: #009595
+  background-color: #ff8f21
 }
 
 .btn--basket .icon-basket {
@@ -948,7 +948,7 @@ img {
 }
 
 .hero .btn1:hover {
-  background-color: #009595;
+  background-color: #ff8f21;
   color: white;
 }
 
@@ -991,7 +991,7 @@ img {
 }
 
 .todo a:hover {
-  color: #009595;
+  color: #ff8f21;
 }
 
 .tac {

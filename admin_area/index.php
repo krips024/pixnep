@@ -97,7 +97,7 @@ $count_coupons = mysqli_num_rows($run_coupons);
 <link href="css/style.css" rel="stylesheet">
 
 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" >
-<link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/2484/9148/files/SDQSDSQ_32x32.png?v=1511436147" type="image/png">
+<link rel="shortcut icon" href="other_images/LOGOO.png" type="image/png">
 
 </head>
 

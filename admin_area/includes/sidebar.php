@@ -188,61 +188,6 @@ else {
 
 </li><!-- Bundles Li Ends --->
 
-<li><!-- relations li Starts -->
-
-<a href="#" data-toggle="collapse" data-target="#relations"><!-- anchor Starts -->
-
-<i class="fa fa-fw fa-retweet"></i> Assign Products To Bundles Relations
-
-<i class="fa fa-fw fa-caret-down"></i>
-
-</a><!-- anchor Ends -->
-
-<ul id="relations" class="collapse"><!-- collapse Starts -->
-
-<li>
-
-<a href="index.php?insert_rel"> Insert Relation </a>
-
-</li>
-
-
-<li>
-
-<a href="index.php?view_rel"> View Relations </a>
-
-</li>
-
-</ul><!-- collapse Ends -->
-
-
-</li><!-- relations li Ends -->
-
-
-
-<li><!-- manufacturer li Starts -->
-
-<a href="#" data-toggle="collapse" data-target="#manufacturers"><!-- anchor Starts -->
-
-<i class="fa fa-fw fa-briefcase"></i> Manufacturers
-
-<i class="fa fa-fw fa-caret-down"></i>
-
-
-</a><!-- anchor Ends -->
-
-<ul id="manufacturers" class="collapse"><!-- ul collapse Starts -->
-
-<li>
-<a href="index.php?insert_manufacturer"> Insert Manufacturer </a>
-</li>
-
-<li>
-<a href="index.php?view_manufacturers"> View Manufacturers </a>
-</li>
-
-</ul><!-- ul collapse Ends -->
-
 
 </li><!-- manufacturer li Ends -->
 
@@ -371,29 +316,7 @@ else {
 </li><!-- about us li Ends -->
 
 
-<li><!-- Coupons Section li Starts -->
 
-<a href="#" data-toggle="collapse" data-target="#coupons"><!-- anchor Starts -->
-
-<i class="fa fa-fw fa-arrows-v"></i> Coupons
-
-<i class="fa fa-fw fa-caret-down"></i>
-
-</a><!-- anchor Ends -->
-
-<ul id="coupons" class="collapse"><!-- ul collapse Starts -->
-
-<li>
-<a href="index.php?insert_coupon"> Insert Coupon </a>
-</li>
-
-<li>
-<a href="index.php?view_coupons"> View Coupons </a>
-</li>
-
-</ul><!-- ul collapse Ends -->
-
-</li><!-- Coupons Section li Ends -->
 
 
 

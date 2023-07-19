@@ -107,7 +107,7 @@ $run_manufacturer = mysqli_query($db,$get_manufacturer);
 
 $row_manufacturer = mysqli_fetch_array($run_manufacturer);
 
-$manufacturer_name = $row_manufacturer['manufacturer_title'];
+// $manufacturer_name = $row_manufacturer['manufacturer_title'];
 
 $pro_psp_price = $row_products['product_psp_price'];
 
@@ -115,16 +115,16 @@ $pro_url = $row_products['product_url'];
 
 if($pro_label == "Sale" or $pro_label == "Gift"){
 
-$product_price = "<del> $$pro_price </del>";
+$product_price = "<del> Rs$pro_price </del>";
 
-$product_psp_price = "| $$pro_psp_price";
+$product_psp_price = "| Rs$pro_psp_price";
 
 }
 else{
 
 $product_psp_price = "";
 
-$product_price = "$$pro_price";
+$product_price = "Rs$pro_price";
 
 }
 
@@ -166,7 +166,7 @@ echo "
 
 <center>
 
-<p class='btn btn-warning'> $manufacturer_name </p>
+s
 
 </center>
 
@@ -313,7 +313,7 @@ $run_manufacturer = mysqli_query($db,$get_manufacturer);
 
 $row_manufacturer = mysqli_fetch_array($run_manufacturer);
 
-$manufacturer_name = $row_manufacturer['manufacturer_title'];
+// $manufacturer_name = $row_manufacturer['manufacturer_title'];
 
 $pro_psp_price = $row_products['product_psp_price'];
 
@@ -322,16 +322,16 @@ $pro_url = $row_products['product_url'];
 
 if($pro_label == "Sale" or $pro_label == "Gift"){
 
-$product_price = "<del> $$pro_price </del>";
+$product_price = "<del> Rs$pro_price </del>";
 
-$product_psp_price = "| $$pro_psp_price";
+$product_psp_price = "| Rs$pro_psp_price";
 
 }
 else{
 
 $product_psp_price = "";
 
-$product_price = "$$pro_price";
+$product_price = "Rs$pro_price";
 
 }
 
@@ -373,7 +373,6 @@ echo "
 
 <center>
 
-<p class='btn btn-warning'> $manufacturer_name </p>
 
 </center>
 

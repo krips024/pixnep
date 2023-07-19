@@ -109,7 +109,8 @@ $i++;
 
 <td bgcolor="yellow" ><?php echo $invoice_no; ?></td>
 
-<td>$<?php echo $amount; ?></td>
+<td><td>Rs<?php echo $due_amount; ?></td>
+<?php echo $amount; ?></td>
 
 <td><?php echo $payment_mode; ?></td>
 
